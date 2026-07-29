@@ -19,22 +19,22 @@ class BedrockModel:
 
 AVAILABLE_MODELS: dict[str, BedrockModel] = {
     "sonnet-4.6": BedrockModel(
-        model_id="us.anthropic.claude-sonnet-4-6-20250514",
+        model_id="us.anthropic.claude-sonnet-4-6",
         display_name="Claude Sonnet 4.6",
         description="Latest and most capable balanced model - best for complex tasks",
     ),
     "sonnet-4.5": BedrockModel(
-        model_id="us.anthropic.claude-sonnet-4-5-20250514",
+        model_id="us.anthropic.claude-sonnet-4-5-20250929-v1:0",
         display_name="Claude Sonnet 4.5",
         description="High-performance model with strong reasoning capabilities",
     ),
     "haiku-4.5": BedrockModel(
-        model_id="us.anthropic.claude-haiku-4-5-20250514",
+        model_id="us.anthropic.claude-haiku-4-5-20251001-v1:0",
         display_name="Claude Haiku 4.5",
         description="Fast and cost-effective for simple tasks",
     ),
     "opus-4.5": BedrockModel(
-        model_id="us.anthropic.claude-opus-4-5-20250514",
+        model_id="us.anthropic.claude-opus-4-5-20251101-v1:0",
         display_name="Claude Opus 4.5",
         description="Most powerful model for highly complex reasoning",
     ),
