@@ -37,7 +37,7 @@ class SimpleChatbot:
                 modelId=self.config.model_id,
                 messages=self.conversation_history,
                 system=[{"text": self.config.system_prompt}],
-                inferenceConfig={"maxTokens": self.config.max_tokens, "temperature": 0.7, "topP": 0.9},
+                inferenceConfig={"maxTokens": self.config.max_tokens, "temperature": 0.7},
             )
             assistant_message = response["output"]["message"]
             assistant_text = assistant_message["content"][0]["text"]
